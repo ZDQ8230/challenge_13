@@ -13,7 +13,13 @@ In this challenge, neural network is used to predict whether applicant for Alpha
 ## Technical 
 ---
 
-The complie and fitting of the model used the parameters: 'binary_crossentropy', 'adam', and 'accuracy'. 
+The complie used the parameters: 'binary_crossentropy', 'adam', and 'accuracy'. 
+
+The fitting of the model used the following paramters:
+
+- epochs = 50 
+- batch_size =100 
+- shuffle=True
 
 
 <br>
@@ -21,7 +27,7 @@ The complie and fitting of the model used the parameters: 'binary_crossentropy',
 ## Model 1 
 ---
 
-This model was the first model. The paramters are: 
+### Summary of the model: 
 
 ![](model_1_summary.png)
 
@@ -40,8 +46,7 @@ Two optimisation attempts was done to increase the accuracy of the model.
 ---
 
 The changes made were: 
-- Reduced the hidden layer to 1 
-- Increased the nodes to 80. 
+- Reduced the hidden layer to 1 (see below summary table for details)
 - The output layer was reduced to 1 
 
 ### Summary of the model_A1: 
@@ -64,7 +69,7 @@ Overall, model_A1 had increased the accuracy. However, the loss had also increas
 
 
 The changes made were: 
-- Hidden layers were increased to 3 (see details in summary below)
+- Hidden layers were increased to 3 (see details in summary table below)
 - The output layer was reduced to 1 
 
 
